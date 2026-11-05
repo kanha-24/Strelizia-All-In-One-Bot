@@ -1,6 +1,10 @@
-import os 
-import sys 
-import asyncio 
+import os
+from webserver import keep_alive
+
+keep_alive()
+
+import sys
+import asyncio
 import traceback 
 import signal 
 from threading import Thread 
