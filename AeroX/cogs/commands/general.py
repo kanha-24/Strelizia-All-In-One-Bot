@@ -86,8 +86,9 @@ class General (commands .Cog ):
         self ._URL_REGEX =r'(?P<url><[^: >]+:\/[^ >]+>|(?:https?|steam):\/\/[^\s<]+[^<.,:;\"\'\]\s])'
         self .color =0x000000 
         
-        async def cog_unload(self):
-    if self.aiohttp and not self.aiohttp.closed:
+async def cog_unload(self):
+    if self.aiohttp and not 
+self.aiohttp.closed:
         await self.aiohttp.close()
 
     @commands .hybrid_command (
