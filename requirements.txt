@@ -1,43 +1,65 @@
-pytz
-Quart
+
+# Discord
 discord.py>=2.4,<3
 git+https://github.com/Rapptz/discord-ext-menus.git
 jishaku
-psutil==5.9.8
-requests
-pymongo[srv]
 wavelink>=3.4.1
-httpx
-tasksio
-motor
-Augmentor
-numpy
-aiosqlite
-lyricsgenius
-gTTS
-langdetect
-python-dotenv
-pyttsx3
-PyYAML
-openai
-duckduckgo-search==6.3.6
-Pillow>=11.3.0
-colorama
-chess
-python-dateutil
 topggpy
-yt-dlp
-spotipy
-groq
-tenacity
-sympy
-matplotlib
-google-generativeai
-google-genai
-aiohttp
-eventlet
+
+# Web servers
+Quart
 Flask
 Flask-SocketIO
-python-decouple
+eventlet
+
+# Async and networking
+aiohttp
 aiofiles
-flask
+aiosqlite
+httpx
+requests
+tasksio
+
+# Database
+pymongo[srv]
+motor
+
+# Images and calculations
+Pillow>=11.3.0
+numpy
+matplotlib
+sympy
+Augmentor
+
+# Date and utilities
+pytz
+python-dateutil
+python-decouple
+python-dotenv
+PyYAML
+typing-extensions
+psutil==5.9.8
+colorama
+
+# Discord bot features
+chess
+langdetect
+gTTS
+pyttsx3
+lyricsgenius
+
+# AI integrations
+openai
+groq
+google-generativeai
+google-genai
+
+# Music and media
+yt-dlp
+spotipy
+
+# Search
+duckduckgo-search==6.3.6
+
+# Reliability
+tenacity
