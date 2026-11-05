@@ -32,6 +32,7 @@ sympy
 Augmentor
 
 # Date and utilities
+setuptools==80.9.0
 pytz
 python-dateutil
 python-decouple
